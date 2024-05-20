@@ -86,6 +86,8 @@ public class DebugExporter implements Exporter {
             // Dataverse and should not be closed in the Exporter.
             outputStream.flush();
         } catch (Exception ex) {
+            System.out.println("Exception caught in Debug exporter. Printing stacktrace...");
+            ex.printStackTrace();
             // If anything goes wrong, an Exporter should throw an ExportException.
             throw new ExportException("Unknown exception caught during export: " + ex);
         }
