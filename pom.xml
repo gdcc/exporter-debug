@@ -9,10 +9,10 @@
   <name>exporter-debug</name>
 
   <scm>
-    <connection>scm:git:https://github.com/gdcc/${project.artifactId}.git</connection>
-    <developerConnection>scm:git:git@github.com:gdcc/${project.artifactId}.git</developerConnection>
+    <connection>scm:git:https://github.com/gdcc/exporter-debug.git</connection>
+    <developerConnection>scm:git:git@github.com:gdcc/exporter-debug.git</developerConnection>
     <tag>HEAD</tag>
-    <url>https://github.com/gdcc/${project.artifactId}</url>
+    <url>https://github.com/gdcc/exporter-debug</url>
   </scm>
 
   <distributionManagement>
