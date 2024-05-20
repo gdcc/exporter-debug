@@ -27,7 +27,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <jdk.version>${jdk.version}</jdk.version>
+    <jdk.version>17</jdk.version>
     
     <!-- Official Maven Plugins -->
     <maven-plugin-api.version>3.8.2</maven-plugin-api.version>
