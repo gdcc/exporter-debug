@@ -30,8 +30,6 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
-    <jacoco.version>0.8.11</jacoco.version>
-    <sonar.version>3.11.0.3922</sonar.version>
   </properties>
 
   <dependencies>
@@ -121,49 +119,6 @@
   </build>
 
   <profiles>
-    <profile>
-      <id>coverage</id>
-      <properties>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.organization>gdcc</sonar.organization>
-        <sonar.projectKey>gdcc_sitemapgen4j</sonar.projectKey>
-        <sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
-        <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
-      </properties>
-      <build>
-        <pluginManagement>
-          <plugins>
-            <plugin>
-              <groupId>org.sonarsource.scanner.maven</groupId>
-              <artifactId>sonar-maven-plugin</artifactId>
-              <version>${sonar.version}</version>
-            </plugin>
-          </plugins>
-        </pluginManagement>
-        <plugins>
-          <plugin>
-            <groupId>org.jacoco</groupId>
-            <artifactId>jacoco-maven-plugin</artifactId>
-            <version>${jacoco.version}</version>
-            <executions>
-              <execution>
-                <id>prepare-agent</id>
-                <goals>
-                  <goal>prepare-agent</goal>
-                </goals>
-              </execution>
-              <execution>
-                <id>report</id>
-                <goals>
-                  <goal>report</goal>
-                </goals>
-                <phase>test</phase>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
     <profile>
       <id>release</id>
       <build>
