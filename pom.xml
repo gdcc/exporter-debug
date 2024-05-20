@@ -6,7 +6,6 @@
   <artifactId>exporter-debug</artifactId>
   <version>0.0.2-SNAPSHOT</version>
   <packaging>jar</packaging>
-  <name>exporter-debug</name>
 
   <scm>
     <connection>scm:git:https://github.com/gdcc/exporter-debug.git</connection>
