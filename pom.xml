@@ -23,7 +23,7 @@
       <id>pdurbin</id>
       <name>Philip Durbin</name>
       <email>philip_durbin@harvard.edu</email>
-      <timezone>-4</timezone>
+      <timezone>America/New_York</timezone>
     </developer>
   </developers>
 
