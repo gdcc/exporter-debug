@@ -7,12 +7,17 @@
   <version>0.0.2-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>JSON/XML Debug Exporter Plugin</name>
-  <description>
-    This exporter plugin can be added to a Dataverse installation, dumping all possible JSON and XML data.
-    It also serves as a demo / example plugin.
-  </description>
+  <description>This exporter plugin can be added to a Dataverse installation, dumping all possible JSON and XML data.
+    It also serves as a demo / example plugin.</description>
 
   <url>https://github.com/gdcc/exporter-debug</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
   <developers>
     <developer>
       <id>poikilotherm</id>
@@ -21,14 +26,7 @@
       <timezone>+1</timezone>
     </developer>
   </developers>
-  <licenses>
-    <license>
-      <name>The Apache Software License, Version 2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
-  
+
   <scm>
     <connection>scm:git:https://github.com/gdcc/exporter-debug.git</connection>
     <developerConnection>scm:git:git@github.com:gdcc/exporter-debug.git</developerConnection>
@@ -50,7 +48,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <jdk.version>17</jdk.version>
-    
+
     <!-- Official Maven Plugins -->
     <maven-plugin-api.version>3.8.2</maven-plugin-api.version>
     <maven-plugin-annotations.version>3.6.4</maven-plugin-annotations.version>
@@ -68,7 +66,7 @@
     <maven-gpg-plugin.version>3.2.4</maven-gpg-plugin.version>
     <maven-release-plugin.version>3.0.1</maven-release-plugin.version>
     <maven-enforcer-plugin.version>3.4.1</maven-enforcer-plugin.version>
-    
+
     <pomchecker-maven-plugin.version>1.7.0</pomchecker-maven-plugin.version>
     <nexus-staging-plugin.version>1.6.13</nexus-staging-plugin.version>
     <jacoco.version>0.8.12</jacoco.version>

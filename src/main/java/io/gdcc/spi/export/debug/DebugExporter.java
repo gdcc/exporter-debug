@@ -1,17 +1,14 @@
 package io.gdcc.spi.export.debug;
 
 import com.google.auto.service.AutoService;
-
 import io.gdcc.spi.export.ExportDataProvider;
 import io.gdcc.spi.export.ExportException;
 import io.gdcc.spi.export.Exporter;
-
 import jakarta.json.Json;
 import jakarta.json.JsonArray;
 import jakarta.json.JsonObject;
 import jakarta.json.JsonObjectBuilder;
 import jakarta.ws.rs.core.MediaType;
-
 import java.io.OutputStream;
 import java.util.Locale;
 
