@@ -20,10 +20,10 @@
   </licenses>
   <developers>
     <developer>
-      <id>poikilotherm</id>
-      <name>Oliver Bertuch</name>
-      <email>github@bertuch.name</email>
-      <timezone>+1</timezone>
+      <id>pdurbin</id>
+      <name>Philip Durbin</name>
+      <email>philip_durbin@harvard.edu</email>
+      <timezone>-4</timezone>
     </developer>
   </developers>
 
