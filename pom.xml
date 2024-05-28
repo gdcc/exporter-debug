@@ -6,9 +6,8 @@
   <artifactId>exporter-debug</artifactId>
   <version>0.0.2-SNAPSHOT</version>
   <packaging>jar</packaging>
-  <name>JSON/XML Debug Exporter Plugin</name>
-  <description>This exporter plugin can be added to a Dataverse installation, dumping all possible JSON and XML data.
-    It also serves as a demo / example plugin.</description>
+  <name>Debug Exporter for Dataverse</name>
+  <description>This exporter plugin can be added to a Dataverse installation, dumping all possible JSON and XML data.</description>
 
   <url>https://github.com/gdcc/exporter-debug</url>
   <licenses>

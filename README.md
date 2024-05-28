@@ -1,7 +1,7 @@
-Dataverse Debug Exporter
-========================
+Debug Exporter for Dataverse
+============================
 
-The debug exporter dumps all possible JSON and XML data that is available to authors of external metadata exporters:
+This exporter dumps all possible JSON and XML data that is available to authors of external metadata exporters:
 
 - datasetJson
 - datasetORE
