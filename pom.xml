@@ -216,8 +216,12 @@
         <version>${spotless.version}</version>
         <configuration>
           <java>
-            <importOrder />
-            <removeUnusedImports />
+            <importOrder>
+              <wildcardsLast>false</wildcardsLast>
+            </importOrder>
+            <removeUnusedImports>
+              <engine>google-java-format</engine>
+            </removeUnusedImports>
             <googleJavaFormat>
               <version>1.15.0</version>
               <style>AOSP</style>
@@ -228,7 +232,9 @@
             <includes>
               <include>pom.xml</include>
             </includes>
-            <sortPom />
+            <sortPom>
+              <encoding>UTF-8</encoding>
+            </sortPom>
           </pom>
         </configuration>
       </plugin>
