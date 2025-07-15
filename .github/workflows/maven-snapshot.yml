@@ -40,7 +40,7 @@ jobs:
                 server-password: MAVEN_PASSWORD
             - name: Publish snapshot
               if: ${{ matrix.java == '17' }}
-              run: mvn deploy -pl -DskipUT -DskipIT -Djdk.version=${{ matrix.java }}
+              run: mvn deploy -DskipUT -DskipIT -Djdk.version=${{ matrix.java }}
               env:
                   MAVEN_USERNAME: ${{ secrets.DATAVERSEBOT_SONATYPE_USERNAME }}
                   MAVEN_PASSWORD: ${{ secrets.DATAVERSEBOT_SONATYPE_TOKEN }}
