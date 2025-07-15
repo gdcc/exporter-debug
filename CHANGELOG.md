@@ -1,9 +1,9 @@
-0.0.2-SNAPSHOT
-==============
+0.1.1
+=====
 
-Test release
+- Reformat with Spotless.
 
-0.0.1-SNAPSHOT
-==============
+0.1.0
+=====
 
-Test release
+- Initial release.
